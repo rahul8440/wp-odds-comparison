@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wp-odds-comparison/odds-comparison",
+  "version": "1.0.0",
+  "title": "Odds Comparison",
+  "category": "widgets",
+  "icon": "chart-line",
+  "description": "Compare live odds from multiple bookmakers.",
+  "keywords": ["odds", "betting", "bookmakers", "sports"],
+  "textdomain": "wp-odds-comparison",
+  "attributes": {
+    "sport": {
+      "type": "string",
+      "default": "soccer_epl"
+    },
+    "markets": {
+      "type": "array",
+      "default": ["h2h"]
+    },
+    "bookmakers": {
+      "type": "array",
+      "default": []
+    },
+    "oddsFormat": {
+      "type": "string",
+      "default": "decimal"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "maxEvents": {
+      "type": "number",
+      "default": 5
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": ["wide", "full"]
+  }
+}

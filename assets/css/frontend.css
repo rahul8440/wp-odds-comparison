@@ -1,0 +1,121 @@
+/**
+ * Front-end odds comparison styles.
+ */
+
+.wpoc-odds-comparison {
+  --wpoc-border: #e2e8f0;
+  --wpoc-accent: #0f766e;
+  --wpoc-bg: #ffffff;
+  --wpoc-muted: #64748b;
+  --wpoc-best: #ecfdf5;
+  font-family: inherit;
+  margin: 1.5rem 0;
+}
+
+.wpoc-title {
+  margin: 0 0 1rem;
+  font-size: 1.25rem;
+}
+
+.wpoc-event {
+  background: var(--wpoc-bg);
+  border: 1px solid var(--wpoc-border);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+}
+
+.wpoc-event-header {
+  background: linear-gradient(135deg, #0f766e 0%, #115e59 100%);
+  color: #fff;
+  padding: 0.75rem 1rem;
+}
+
+.wpoc-event-header h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.wpoc-vs {
+  opacity: 0.85;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.wpoc-table-wrap {
+  overflow-x: auto;
+}
+
+.wpoc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.wpoc-table th,
+.wpoc-table td {
+  padding: 0.65rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--wpoc-border);
+}
+
+.wpoc-table th {
+  background: #f8fafc;
+  color: var(--wpoc-muted);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.wpoc-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.wpoc-bm {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.wpoc-odds strong {
+  color: var(--wpoc-accent);
+  font-size: 1.05rem;
+}
+
+.wpoc-cta {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  background: var(--wpoc-accent);
+  color: #fff !important;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  transition: background 0.15s ease;
+}
+
+.wpoc-cta:hover {
+  background: #115e59;
+}
+
+.wpoc-empty,
+.wpoc-error {
+  padding: 1rem;
+  color: var(--wpoc-muted);
+}
+
+.wpoc-error {
+  color: #b91c1c;
+}
+
+.wpoc-updated {
+  margin: 0.5rem 0 0;
+  color: var(--wpoc-muted);
+}
+
+.alignwide .wpoc-odds-comparison,
+.alignfull .wpoc-odds-comparison {
+  max-width: none;
+}

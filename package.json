@@ -1,0 +1,12 @@
+{
+  "name": "wp-odds-comparison",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "wp-scripts build assets/js/block/index.js --output-path=build/block",
+    "start": "wp-scripts start assets/js/block/index.js --output-path=build/block"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^27.0.0"
+  }
+}

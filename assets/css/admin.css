@@ -1,0 +1,8 @@
+.wpoc-admin .wpoc-bookmaker-table {
+  margin-top: 1rem;
+  max-width: 960px;
+}
+
+.wpoc-admin .wpoc-bookmaker-table input.large-text {
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "wp-odds-comparison/plugin",
+  "description": "WordPress odds comparison plugin",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPOddsComparison\\": "includes/"
+    }
+  },
+  "scripts": {
+    "lint": "phpcs --standard=PSR12 includes/"
+  }
+}
